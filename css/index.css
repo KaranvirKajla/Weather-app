@@ -1,0 +1,74 @@
+:root{
+    --primarycolor: orange;
+    --bgcolor: rgb(253, 198, 95);
+    --textcolor: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bgcolor);
+    height: 100vh;
+}
+.card{
+    
+    height: 400px;
+    width: 250px;
+    background-color: var(--primarycolor);
+}
+.details{
+    text-align: center;
+    height: 50%;
+    position: relative;
+    color: var(--textcolor);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* .square1{
+    width: 115%;
+    height: 115%;
+    overflow: hidden;
+    background-color: rgb(233, 149, 149);
+    border-radius: 80px;
+    position: absolute;
+    animation: spin 5s linear infinite;
+    z-index: -1;
+    
+}
+.square2{
+    width: 115%;
+    height: 115%;
+    background-color: rgb(233, 149, 149);
+    border-radius: 80px;
+    position: absolute;
+    transform: rotate(90deg);
+    animation: spin 5s linear infinite;
+    z-index: -1;
+    overflow: hidden;
+} */
+.icon{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-property: scal;
+}
+
+.location i{
+    font-size: larger;
+}
+
+
+/* @keyframes spin {
+
+    100%{
+        transform:rotate(360deg);
+    }
+} */

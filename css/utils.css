@@ -1,0 +1,23 @@
+:root{
+    --bgbtn: rgba(247, 160, 0, 0.685);
+}
+.mt-2{
+    margin-top: 10px;
+}
+.mt-4{
+    margin-top: 30px;
+}
+.smallGray{
+    font-size: small;
+    color: gray;
+}
+input{
+    border-radius: 10px;
+    padding: 7px;
+}
+.btn{
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgba(255, 166, 0, 0.541);
+    color: white;
+}
